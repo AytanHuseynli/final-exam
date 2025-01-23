@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Children } from 'react'
 import { Helmet } from "react-helmet";
 import "./BannerSection"
 import BannerSection from './BannerSection';
@@ -18,6 +18,7 @@ function Home() {
 
             <BannerSection />
             <Flowers />
+            <Children/>
 
 
 
